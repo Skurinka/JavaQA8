@@ -1,3 +1,4 @@
+
 name: Java CI with Maven
 
 on: [push, pull_request]
@@ -14,5 +15,5 @@ jobs:
        with:
         java-version: '11'
 	distribution: 'adopt'
-    - name: Build with Maven
+     - name: Build with Maven
        run: mvn -B package --file pom.xml
