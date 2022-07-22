@@ -15,5 +15,5 @@ jobs:
        with:
         java-version: '11'
 	distibution: 'adopt'
-     - name: Build with Maven
-       run: mvn -B package --file pom.xml
+	- name: Build with Maven
+          run: mvn -B package --file pom.xml
